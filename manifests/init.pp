@@ -1,7 +1,7 @@
 # a class that is mean to make us a nice graph
 class exampleawsgraph {
   $subnets = ['licenseservice-avza','licenseservice-avzb','licenseservice-avzc']
-  $number_of_app_servers = 15
+  $number_of_app_servers = 6
   $region = 'us-west-2'
   $ami = 'ami-d440a6e7'
   $instances = [
@@ -10,15 +10,6 @@ class exampleawsgraph {
     'app-3',
     'app-4',
     'app-5',
-    'app-6',
-    'app-7',
-    'app-8',
-    'app-9',
-    'app-10',
-    'app-12',
-    'app-13',
-    'app-14',
-    'app-15'
   ]
 
   Ec2_instance {
